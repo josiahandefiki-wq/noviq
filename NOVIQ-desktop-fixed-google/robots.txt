@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://noviqenterprise.netlify.app/sitemap.xml

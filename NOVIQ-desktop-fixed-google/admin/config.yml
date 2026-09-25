@@ -1,0 +1,227 @@
+backend:
+  name: git-gateway
+  branch: main
+# For local testing only, run `npx decap-server` in another terminal, then
+# uncomment the next line and reload /admin/ (remember to comment it back
+# out before deploying):
+# local_backend: true
+
+publish_mode: simple
+media_folder: "assets/images/uploads"
+public_folder: "/assets/images/uploads"
+
+collections:
+  - name: "testimonials"
+    label: "Testimonials"
+    files:
+      - name: "testimonials"
+        label: "Client Testimonials"
+        file: "data/testimonials.json"
+        fields:
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "list"
+            summary: "{{fields.name}} — {{fields.role}}"
+            fields:
+              - {label: "Client name", name: "name", widget: "string"}
+              - {label: "Role / business", name: "role", widget: "string", required: false, hint: "e.g. Business Owner · Lagos"}
+              - {label: "Initials (shown in the avatar circle)", name: "initials", widget: "string", required: false, hint: "1–3 letters, e.g. CN"}
+              - {label: "Quote", name: "quote", widget: "text"}
+
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - name: "contact"
+        label: "Contact & Social Links"
+        file: "data/site.json"
+        fields:
+          - {label: "Business name", name: "name", widget: "string"}
+          - {label: "Tagline", name: "tagline", widget: "string", required: false}
+          - {label: "Positioning line", name: "positioning", widget: "string", required: false}
+          - {label: "Live site URL", name: "url", widget: "string", hint: "e.g. https://noviq.netlify.app — used in SEO tags"}
+          - {label: "Email address", name: "email", widget: "string", required: false}
+          - {label: "Phone number", name: "phone", widget: "string", required: false, hint: "Include country code, e.g. +234 801 234 5678"}
+          - {label: "WhatsApp number", name: "whatsapp", widget: "string", required: false, hint: "e.g. +2348012345678 — used to build the wa.me link"}
+          - {label: "Location", name: "location", widget: "string", required: false}
+          - label: "Social links"
+            name: "social"
+            widget: "object"
+            fields:
+              - {label: "Instagram URL", name: "instagram", widget: "string", required: false}
+              - {label: "Facebook URL", name: "facebook", widget: "string", required: false}
+              - {label: "LinkedIn URL", name: "linkedin", widget: "string", required: false}
+              - {label: "X (Twitter) URL", name: "x", widget: "string", required: false}
+          - {label: "Contact form endpoint", name: "form_endpoint", widget: "string", required: false}
+          - {label: "Newsletter form endpoint", name: "newsletter_endpoint", widget: "string", required: false}
+          - {label: "Internal note", name: "_note", widget: "hidden", required: false}
+          - {label: "Last updated", name: "lastmod", widget: "hidden", required: false}
+
+
+  - name: "services"
+    label: "Services"
+    files:
+      - name: "services"
+        label: "All Services"
+        file: "data/services.json"
+        fields:
+          - label: "Services"
+            name: "services"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - {label: "ID", name: "id", widget: "string", hint: "Keep this unique and lowercase; do not change after launch."}
+              - {label: "Page slug", name: "slug", widget: "string", hint: "Example: service-event-planning"}
+              - {label: "Service name", name: "title", widget: "string"}
+              - {label: "Icon", name: "icon", widget: "string", required: false, hint: "Existing icon name, e.g. camera, calendar, users."}
+              - {label: "Service image", name: "image", widget: "image"}
+              - {label: "Short description", name: "short", widget: "text"}
+              - {label: "Hero heading", name: "hero_title", widget: "string"}
+              - {label: "Lead paragraph", name: "lead", widget: "text"}
+              - {label: "SEO description", name: "meta", widget: "text", required: false}
+              - label: "Key features"
+                name: "features"
+                widget: "list"
+                field: {label: "Feature", name: "feature", widget: "string"}
+              - label: "What's included"
+                name: "includes"
+                widget: "list"
+                fields:
+                  - {label: "Icon", name: "icon", widget: "string", required: false}
+                  - {label: "Heading", name: "title", widget: "string"}
+                  - {label: "Description", name: "description", widget: "text"}
+              - {label: "Who it is for", name: "for", widget: "text"}
+              - label: "Process steps"
+                name: "steps"
+                widget: "list"
+                fields:
+                  - {label: "Step title", name: "title", widget: "string"}
+                  - {label: "Step description", name: "description", widget: "text"}
+
+  - name: "images"
+    label: "Website Images"
+    files:
+      - name: "images"
+        label: "Website Images"
+        file: "data/images.json"
+        fields:
+          - {label: "Internal note", name: "_note", widget: "hidden", required: false}
+          - label: "Home Page Hero"
+            name: "hero-main"
+            widget: "object"
+            fields:
+              - {label: "Image", name: "src", widget: "image"}
+              - {label: "Alt text (plain description, for screen readers & SEO)", name: "alt", widget: "string", required: false}
+          - label: "Secondary Hero (About / Services / Insights)"
+            name: "hero-alt"
+            widget: "object"
+            fields:
+              - {label: "Image", name: "src", widget: "image"}
+              - {label: "Alt text (plain description, for screen readers & SEO)", name: "alt", widget: "string", required: false}
+          - label: "Why Choose Us Section"
+            name: "why"
+            widget: "object"
+            fields:
+              - {label: "Image", name: "src", widget: "image"}
+              - {label: "Alt text (plain description, for screen readers & SEO)", name: "alt", widget: "string", required: false}
+          - label: "About Page Visual"
+            name: "about"
+            widget: "object"
+            fields:
+              - {label: "Image", name: "src", widget: "image"}
+              - {label: "Alt text (plain description, for screen readers & SEO)", name: "alt", widget: "string", required: false}
+          - label: "Testimonials Section Visual"
+            name: "testimonial"
+            widget: "object"
+            fields:
+              - {label: "Image", name: "src", widget: "image"}
+              - {label: "Alt text (plain description, for screen readers & SEO)", name: "alt", widget: "string", required: false}
+          - label: "Call-to-Action Background (subtle, mostly hidden behind the dark panel)"
+            name: "cta"
+            widget: "object"
+            fields:
+              - {label: "Image", name: "src", widget: "image"}
+              - {label: "Alt text (plain description, for screen readers & SEO)", name: "alt", widget: "string", required: false}
+          - label: "Web Development Service"
+            name: "service-web-development"
+            widget: "object"
+            fields:
+              - {label: "Image", name: "src", widget: "image"}
+              - {label: "Alt text (plain description, for screen readers & SEO)", name: "alt", widget: "string", required: false}
+          - label: "Social Media Marketing Service"
+            name: "service-social-media"
+            widget: "object"
+            fields:
+              - {label: "Image", name: "src", widget: "image"}
+              - {label: "Alt text (plain description, for screen readers & SEO)", name: "alt", widget: "string", required: false}
+          - label: "Social Media Management Service"
+            name: "service-management"
+            widget: "object"
+            fields:
+              - {label: "Image", name: "src", widget: "image"}
+              - {label: "Alt text (plain description, for screen readers & SEO)", name: "alt", widget: "string", required: false}
+          - label: "Advertising Service"
+            name: "service-advertising"
+            widget: "object"
+            fields:
+              - {label: "Image", name: "src", widget: "image"}
+              - {label: "Alt text (plain description, for screen readers & SEO)", name: "alt", widget: "string", required: false}
+          - label: "Content Creation Service"
+            name: "service-content"
+            widget: "object"
+            fields:
+              - {label: "Image", name: "src", widget: "image"}
+              - {label: "Alt text (plain description, for screen readers & SEO)", name: "alt", widget: "string", required: false}
+          - label: "Blog: Website Checklist Article"
+            name: "blog-article-01"
+            widget: "object"
+            fields:
+              - {label: "Image", name: "src", widget: "image"}
+              - {label: "Alt text (plain description, for screen readers & SEO)", name: "alt", widget: "string", required: false}
+          - label: "Blog: Social Media Consistency Article"
+            name: "blog-article-02"
+            widget: "object"
+            fields:
+              - {label: "Image", name: "src", widget: "image"}
+              - {label: "Alt text (plain description, for screen readers & SEO)", name: "alt", widget: "string", required: false}
+          - label: "Blog: Paid Advertising Article"
+            name: "blog-article-03"
+            widget: "object"
+            fields:
+              - {label: "Image", name: "src", widget: "image"}
+              - {label: "Alt text (plain description, for screen readers & SEO)", name: "alt", widget: "string", required: false}
+          - label: "Project: Nexus Campus Marketplace"
+            name: "project-01"
+            widget: "object"
+            fields:
+              - {label: "Image", name: "src", widget: "image"}
+              - {label: "Alt text (plain description, for screen readers & SEO)", name: "alt", widget: "string", required: false}
+          - label: "Project: Social Media Campaigns"
+            name: "project-02"
+            widget: "object"
+            fields:
+              - {label: "Image", name: "src", widget: "image"}
+              - {label: "Alt text (plain description, for screen readers & SEO)", name: "alt", widget: "string", required: false}
+          - label: "Project: Google Local Services Ads"
+            name: "project-03"
+            widget: "object"
+            fields:
+              - {label: "Image", name: "src", widget: "image"}
+              - {label: "Alt text (plain description, for screen readers & SEO)", name: "alt", widget: "string", required: false}
+          - label: "Team Member 1 Photo"
+            name: "team-01"
+            widget: "object"
+            fields:
+              - {label: "Image", name: "src", widget: "image"}
+              - {label: "Alt text (plain description, for screen readers & SEO)", name: "alt", widget: "string", required: false}
+          - label: "Team Member 2 Photo"
+            name: "team-02"
+            widget: "object"
+            fields:
+              - {label: "Image", name: "src", widget: "image"}
+              - {label: "Alt text (plain description, for screen readers & SEO)", name: "alt", widget: "string", required: false}
+          - label: "Team Member 3 Photo"
+            name: "team-03"
+            widget: "object"
+            fields:
+              - {label: "Image", name: "src", widget: "image"}
+              - {label: "Alt text (plain description, for screen readers & SEO)", name: "alt", widget: "string", required: false}

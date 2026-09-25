@@ -1,0 +1,20 @@
+{
+  "name": "NOVIQ",
+  "tagline": "Ideas to Impact",
+  "positioning": "We grow small businesses.",
+  "url": "https://noviqenterprise.netlify.app",
+  "_note": "Fill these in, then run: python3 tools/build.py . Empty values render as clearly labelled placeholders. url is a placeholder domain: replace it with your real domain before launch (canonical, sitemap, Open Graph).",
+  "email": "",
+  "phone": "",
+  "whatsapp": "",
+  "location": "",
+  "social": {
+    "instagram": "",
+    "facebook": "",
+    "linkedin": "",
+    "x": ""
+  },
+  "form_endpoint": "",
+  "newsletter_endpoint": "",
+  "lastmod": "2026-09-21"
+}

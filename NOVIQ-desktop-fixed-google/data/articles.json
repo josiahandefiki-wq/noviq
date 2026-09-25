@@ -1,0 +1,183 @@
+[
+  {
+    "id": "article-01",
+    "slug": "article-01",
+    "title": "5 Things to Check Before Building a Small-Business Website",
+    "category": "Websites",
+    "date": "2026-09-15",
+    "read": "4 min read",
+    "image": "assets/images/blog/article-01.svg",
+    "excerpt": "A short checklist to work through before you spend time or money on a new website.",
+    "body": [
+      {
+        "t": "p",
+        "x": "A website is often the first place a potential customer looks before they contact you. Before you invest time or money in a build, these five checks will save you rework later."
+      },
+      {
+        "t": "h2",
+        "x": "Know the one action a visitor should take"
+      },
+      {
+        "t": "p",
+        "x": "Every page needs a job. For a café it might be viewing the menu; for a trades business it might be requesting a quote. Decide the main action first, then make it easy to find on every page."
+      },
+      {
+        "t": "h2",
+        "x": "Say what you do on the first screen"
+      },
+      {
+        "t": "p",
+        "x": "Visitors decide quickly. Your headline should say what you offer and who it is for, in plain language, before any clever tagline."
+      },
+      {
+        "t": "h2",
+        "x": "Check it on a phone first"
+      },
+      {
+        "t": "p",
+        "x": "Many small-business sites are opened mostly on phones. Make sure text is readable, buttons are easy to tap and forms are short."
+      },
+      {
+        "t": "h2",
+        "x": "Gather real content early"
+      },
+      {
+        "t": "p",
+        "x": "Photos of your own work, honest descriptions and genuine customer feedback build trust faster than stock images. Collect them before design begins so the layout fits the content, not the other way round."
+      },
+      {
+        "t": "h2",
+        "x": "Plan what happens after someone gets in touch"
+      },
+      {
+        "t": "p",
+        "x": "Decide who receives enquiries, how quickly you will reply and what happens next. A form that goes nowhere is worse than having no form at all."
+      },
+      {
+        "t": "p",
+        "x": "Work through these five points and you will have a much clearer brief for whoever builds your site."
+      }
+    ]
+  },
+  {
+    "id": "article-02",
+    "slug": "article-02",
+    "title": "How to Stay Consistent on Social Media Without Posting Every Day",
+    "category": "Social Media",
+    "date": "2026-09-02",
+    "read": "5 min read",
+    "image": "assets/images/blog/article-02.svg",
+    "excerpt": "A realistic approach to social media for busy owners: fewer platforms, a simple content mix and a routine you can keep.",
+    "body": [
+      {
+        "t": "p",
+        "x": "Consistency matters more than volume. A steady rhythm you can maintain beats a burst of daily posts that fades after a month."
+      },
+      {
+        "t": "h2",
+        "x": "Choose one or two platforms"
+      },
+      {
+        "t": "p",
+        "x": "Pick the places where your customers already spend time. It is better to do two platforms well than five badly."
+      },
+      {
+        "t": "h2",
+        "x": "Use a simple content mix"
+      },
+      {
+        "t": "p",
+        "x": "Rotate between a few reliable types of post so you never start from a blank page:"
+      },
+      {
+        "t": "ul",
+        "x": [
+          "Behind the scenes: how your product or service is made or delivered",
+          "Answers to questions customers ask you often",
+          "Offers, launches and updates",
+          "Examples of your work and customer feedback"
+        ]
+      },
+      {
+        "t": "h2",
+        "x": "Batch your content"
+      },
+      {
+        "t": "p",
+        "x": "Set aside one block of time each week or month to plan, write and design several posts together. Scheduling them ahead frees you to focus on running the business."
+      },
+      {
+        "t": "h2",
+        "x": "Reply promptly"
+      },
+      {
+        "t": "p",
+        "x": "Comments and messages are conversations with potential customers. A short, friendly reply builds more trust than another post."
+      },
+      {
+        "t": "h2",
+        "x": "Review once a month"
+      },
+      {
+        "t": "p",
+        "x": "Look at which posts got the most saves, replies and clicks. Do more of those and drop what is not working."
+      }
+    ]
+  },
+  {
+    "id": "article-03",
+    "slug": "article-03",
+    "title": "Is Paid Advertising Right for Your Business? A Simple Way to Decide",
+    "category": "Advertising",
+    "date": "2026-08-20",
+    "read": "5 min read",
+    "image": "assets/images/blog/article-03.svg",
+    "excerpt": "Before you spend on ads, check your goal, your foundations and how you will measure results.",
+    "body": [
+      {
+        "t": "p",
+        "x": "Paid advertising can be a useful way to reach new customers, but it works best when the basics are already in place. These questions help you decide whether now is the right time."
+      },
+      {
+        "t": "h2",
+        "x": "Start with a clear goal"
+      },
+      {
+        "t": "p",
+        "x": "Decide what you want an ad to achieve: phone calls, quote requests, online sales or shop visits. A specific goal makes it possible to judge whether the campaign is working."
+      },
+      {
+        "t": "h2",
+        "x": "Check your foundations"
+      },
+      {
+        "t": "p",
+        "x": "Ads send people somewhere. Make sure the page they land on loads quickly, works on a phone, explains your offer clearly and makes it easy to get in touch."
+      },
+      {
+        "t": "h2",
+        "x": "Begin small and test"
+      },
+      {
+        "t": "p",
+        "x": "Start with a modest budget and a couple of clear variations. Testing tells you what your audience responds to before you commit more."
+      },
+      {
+        "t": "h2",
+        "x": "Track what matters"
+      },
+      {
+        "t": "p",
+        "x": "Set up tracking before you launch so that calls, form submissions and purchases can be tied back to the ad that produced them."
+      },
+      {
+        "t": "h2",
+        "x": "Know when to wait"
+      },
+      {
+        "t": "p",
+        "x": "If your offer is unclear or your website does not yet convert visitors, improving those first will usually make later advertising more effective."
+      }
+    ]
+  }
+]
