@@ -1,0 +1,20 @@
+{
+  "name": "NOVIQ",
+  "tagline": "Ideas to Impact",
+  "positioning": "We grow small businesses.",
+  "url": "https://noviqenterprise.netlify.app",
+  "_note": "Fill these in, then run: python3 tools/build.py . Empty values render as clearly labelled placeholders. url is a placeholder domain: replace it with your real domain before launch (canonical, sitemap, Open Graph).",
+  "email": "noviqenterprise7@gmail.com",
+  "phone": "+2347047422465",
+  "whatsapp": "+2347047422465",
+  "location": "Takum LGA, Taraba State, Nigeria",
+  "social": {
+    "instagram": "",
+    "facebook": "https://www.facebook.com/profile.php?id=61592057152967",
+    "linkedin": "",
+    "x": ""
+  },
+  "form_endpoint": "",
+  "newsletter_endpoint": "",
+  "lastmod": "2026-09-21"
+}

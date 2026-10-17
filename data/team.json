@@ -1,0 +1,54 @@
+{
+  "team": [
+    {
+      "name": "Josiah Andefiki Irimiya",
+      "role": "Team Lead & Strategist",
+      "bio": "Josiah leads NOVIQ's direction from the first brief to the final outcome. He turns ambitious ideas into clear priorities, aligns the team around practical goals, and ensures each project is shaped around the audience, the opportunity and measurable impact.",
+      "image": "/assets/images/team/josiah-andefiki-irimiya.png",
+      "tags": [
+        "Strategy",
+        "Team Leadership",
+        "Project Direction",
+        "Growth Planning"
+      ]
+    },
+    {
+      "name": "Samuel Joseph",
+      "role": "Business Development & Growth",
+      "bio": "Samuel connects NOVIQ's work to real business opportunities. He develops client relationships, clarifies needs, identifies practical routes to growth, and helps turn strong ideas into partnerships and results that matter to customers.",
+      "image": "/assets/images/team/samuel-joseph.jpg",
+      "tags": [
+        "Business Development",
+        "Client Partnerships",
+        "Growth Opportunities",
+        "Market Expansion"
+      ]
+    },
+    {
+      "name": "Michael Timothy",
+      "role": "Technology & Product Development",
+      "bio": "Michael develops the technology behind NOVIQ's products and digital solutions. His work spans software and web development, app development, AI model integration and experimentation, technical testing, maintenance, automation and reliable system implementation.",
+      "image": "/assets/images/team/michael-timothy.jpg",
+      "tags": [
+        "Software & Web Development",
+        "AI Integration",
+        "App Development",
+        "Automation",
+        "Testing & Maintenance"
+      ]
+    },
+    {
+      "name": "Alhamdu Williams",
+      "role": "Research & Intelligence",
+      "bio": "This role turns evidence into better decisions. It investigates customer needs, identifies market opportunities, analyses competitors, evaluates possible solutions, and supports technical and product research before important decisions are made.",
+      "image": "/assets/images/team/member-placeholder.svg",
+      "tags": [
+        "Market Research",
+        "Customer Insight",
+        "Competitor Analysis",
+        "Opportunity Identification",
+        "Product Research"
+      ]
+    }
+  ]
+}

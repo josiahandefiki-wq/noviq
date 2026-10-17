@@ -1,0 +1,22 @@
+{
+  "testimonials": [
+    {
+      "name": "Client Name",
+      "role": "Business Owner · Placeholder",
+      "initials": "CN",
+      "quote": "The team took the time to understand our business before suggesting anything. The new website is clear, quick and easy for our customers to use."
+    },
+    {
+      "name": "Client Name",
+      "role": "Shop Owner · Placeholder",
+      "initials": "CN",
+      "quote": "Our social media finally feels consistent. Posts go out on time, comments get answered, and we know what is coming next."
+    },
+    {
+      "name": "Client Name",
+      "role": "Service Provider · Placeholder",
+      "initials": "CN",
+      "quote": "They explained our advertising options in plain language and set up tracking so we could see exactly what our budget was doing."
+    }
+  ]
+}

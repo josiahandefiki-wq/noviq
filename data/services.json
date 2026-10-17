@@ -1,0 +1,550 @@
+{
+  "services": [
+    {
+      "id": "web-development",
+      "slug": "service-web-development",
+      "title": "Web Development",
+      "icon": "code",
+      "image": "https://images.pexels.com/photos/30678211/pexels-photo-30678211.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "short": "Fast, clear, mobile-first websites that turn visitors into enquiries.",
+      "hero_title": "Websites that work as hard as you do.",
+      "lead": "A website should do a job for your business. We design and build sites that explain what you offer, build trust quickly and make it easy for customers to get in touch.",
+      "meta": "NOVIQ builds fast, responsive, conversion-focused websites and landing pages for small businesses.",
+      "features": [
+        "Business websites",
+        "Landing pages",
+        "Responsive websites",
+        "Conversion-focused design"
+      ],
+      "includes": [
+        [
+          "layout",
+          "Custom page design",
+          "Layouts that match your brand and put your main message first."
+        ],
+        [
+          "phone",
+          "Mobile-first build",
+          "Designed for phones first, then scaled up for tablets and desktops."
+        ],
+        [
+          "target",
+          "Clear calls to action",
+          "Enquiry forms and buttons placed where customers are ready to act."
+        ],
+        [
+          "search",
+          "SEO foundations",
+          "Clean structure, page titles and descriptions so search engines understand your pages."
+        ],
+        [
+          "zap",
+          "Fast and accessible",
+          "Lightweight code, sensible image sizes and keyboard-friendly navigation."
+        ],
+        [
+          "users",
+          "Hand-over support",
+          "Simple guidance so you know how to keep your site up to date."
+        ]
+      ],
+      "for": "Small businesses launching a first website, or replacing one that no longer reflects the business.",
+      "steps": [
+        [
+          "Discover",
+          "We learn your goals, customers and the content you already have."
+        ],
+        [
+          "Design",
+          "We shape the layout and visual direction for your approval."
+        ],
+        [
+          "Build",
+          "We develop a responsive site and test it across devices."
+        ],
+        [
+          "Launch",
+          "We run go-live checks and hand the site over with guidance."
+        ]
+      ]
+    },
+    {
+      "id": "social-media-marketing",
+      "slug": "service-social-media",
+      "title": "Social Media Marketing",
+      "icon": "trending",
+      "image": "https://images.pexels.com/photos/30689110/pexels-photo-30689110.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "short": "Strategy and campaigns that grow the right audience, not just bigger numbers.",
+      "hero_title": "Social media that builds real attention.",
+      "lead": "We plan campaigns around who you want to reach and what you want them to do, then create the content and rhythm to get there.",
+      "meta": "NOVIQ plans social media strategy, campaigns, audience growth and engagement for small businesses.",
+      "features": [
+        "Strategy",
+        "Campaigns",
+        "Audience growth",
+        "Engagement"
+      ],
+      "includes": [
+        [
+          "target",
+          "Audience and goal mapping",
+          "We define who you want to reach and what success looks like."
+        ],
+        [
+          "layers",
+          "Content strategy",
+          "Themes and formats that suit your brand and your platforms."
+        ],
+        [
+          "megaphone",
+          "Campaign planning",
+          "Launches, offers and seasonal moments planned in advance."
+        ],
+        [
+          "trending",
+          "Audience growth",
+          "Practical tactics to reach new people and keep the ones you have."
+        ],
+        [
+          "chat",
+          "Engagement approach",
+          "Ways to start conversations, not just collect likes."
+        ],
+        [
+          "calendar",
+          "Review and adjust",
+          "Regular check-ins to learn what works and improve it."
+        ]
+      ],
+      "for": "Businesses that want a clear plan for social media before committing to daily posting.",
+      "steps": [
+        [
+          "Discover",
+          "We review your brand, audience and current accounts."
+        ],
+        [
+          "Strategy",
+          "We set goals, platforms and content themes."
+        ],
+        [
+          "Create",
+          "We produce campaign content and schedules."
+        ],
+        [
+          "Grow",
+          "We track results and refine the plan."
+        ]
+      ]
+    },
+    {
+      "id": "social-media-management",
+      "slug": "service-management",
+      "title": "Social Media Management",
+      "icon": "calendar",
+      "image": "https://images.pexels.com/photos/30677719/pexels-photo-30677719.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "short": "Consistent posting and friendly community care, handled for you.",
+      "hero_title": "Your social accounts, looked after.",
+      "lead": "We take the day-to-day off your plate: planning, posting and replying, so your accounts stay active and on brand.",
+      "meta": "NOVIQ manages small-business social media: content planning, posting, community management and account optimisation.",
+      "features": [
+        "Content planning",
+        "Posting",
+        "Community management",
+        "Account optimization"
+      ],
+      "includes": [
+        [
+          "calendar",
+          "Content calendar",
+          "A clear plan of what goes out and when, shared with you in advance."
+        ],
+        [
+          "send",
+          "Scheduled posting",
+          "Posts published consistently at sensible times."
+        ],
+        [
+          "chat",
+          "Community management",
+          "Friendly, on-brand replies to comments and messages."
+        ],
+        [
+          "spark",
+          "Profile optimisation",
+          "Bios, links, highlights and page details that make a good first impression."
+        ],
+        [
+          "layers",
+          "Approval workflow",
+          "You see and approve content before it goes live."
+        ],
+        [
+          "trending",
+          "Simple reporting",
+          "A plain-language summary of what is working."
+        ]
+      ],
+      "for": "Busy owners who know social media matters but don't have the time to run it.",
+      "steps": [
+        [
+          "Discover",
+          "We agree your brand voice, accounts and approval process."
+        ],
+        [
+          "Plan",
+          "We build a content calendar around your goals."
+        ],
+        [
+          "Post",
+          "We create, schedule and publish content."
+        ],
+        [
+          "Care",
+          "We reply, monitor and report back."
+        ]
+      ]
+    },
+    {
+      "id": "advertising",
+      "slug": "service-advertising",
+      "title": "Advertising",
+      "icon": "megaphone",
+      "image": "https://images.pexels.com/photos/33644177/pexels-photo-33644177.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "short": "Paid campaigns built around a clear goal and tracked from the first click.",
+      "hero_title": "Advertising with a purpose behind every click.",
+      "lead": "We set up and manage digital ad campaigns that are tied to a specific goal, with creative and tracking planned from the start.",
+      "meta": "NOVIQ creates and manages digital advertising campaigns for small businesses, with creative development and performance tracking.",
+      "features": [
+        "Digital advertising",
+        "Campaign setup",
+        "Creative development",
+        "Performance tracking"
+      ],
+      "includes": [
+        [
+          "target",
+          "Goal-first planning",
+          "We decide what a good result looks like before spending anything."
+        ],
+        [
+          "layers",
+          "Campaign setup",
+          "Audiences, placements and budgets configured properly."
+        ],
+        [
+          "camera",
+          "Creative development",
+          "Ad visuals and copy designed to suit each platform."
+        ],
+        [
+          "layout",
+          "Landing page check",
+          "We make sure the page people arrive on supports the ad."
+        ],
+        [
+          "trending",
+          "Performance tracking",
+          "Tracking set up so you can see what each campaign delivers."
+        ],
+        [
+          "zap",
+          "Ongoing optimisation",
+          "Regular adjustments based on what the data shows."
+        ]
+      ],
+      "for": "Businesses with a clear offer that are ready to test paid reach.",
+      "steps": [
+        [
+          "Discover",
+          "We agree the goal, audience and budget."
+        ],
+        [
+          "Strategy",
+          "We plan the campaign structure and creative."
+        ],
+        [
+          "Create",
+          "We produce ads and set up tracking."
+        ],
+        [
+          "Launch",
+          "We go live, monitor and optimise."
+        ]
+      ]
+    },
+    {
+      "id": "content-creation",
+      "slug": "service-content",
+      "title": "Content Creation",
+      "icon": "camera",
+      "image": "https://images.pexels.com/photos/32053085/pexels-photo-32053085.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "short": "Graphics, short-form video and creatives that make your brand look ready.",
+      "hero_title": "Content that looks like you mean business.",
+      "lead": "From social graphics to short-form video, we create polished, on-brand content you can use across your website, social channels and ads.",
+      "meta": "NOVIQ creates graphics, short-form video, promotional content and social media creatives for small businesses.",
+      "features": [
+        "Graphics",
+        "Short-form video",
+        "Promotional content",
+        "Social media creatives"
+      ],
+      "includes": [
+        [
+          "pen",
+          "Brand-consistent graphics",
+          "Templates and visuals that keep your look consistent."
+        ],
+        [
+          "play",
+          "Short-form video",
+          "Vertical video edits for Reels, Shorts and Stories."
+        ],
+        [
+          "megaphone",
+          "Promotional content",
+          "Offers, launches and announcements designed to be noticed."
+        ],
+        [
+          "layers",
+          "Social creatives",
+          "Post, carousel and story formats sized for each platform."
+        ],
+        [
+          "camera",
+          "Content sessions",
+          "Guidance for capturing your own photos and clips."
+        ],
+        [
+          "check",
+          "Reusable assets",
+          "Files organised so you can reuse and adapt them."
+        ]
+      ],
+      "for": "Businesses that need a steady supply of good-looking content but not a full in-house creative team.",
+      "steps": [
+        [
+          "Discover",
+          "We review your brand and what you need content for."
+        ],
+        [
+          "Concept",
+          "We plan formats, styles and messaging."
+        ],
+        [
+          "Create",
+          "We design, shoot and edit the content."
+        ],
+        [
+          "Deliver",
+          "We hand over files ready to publish."
+        ]
+      ],
+      "_image_alt_update": "Young Nigerian creative professional examining a camera in a modern studio"
+    },
+    {
+      "id": "event-planning",
+      "slug": "service-event-planning",
+      "title": "Event Planning & Coordination",
+      "icon": "calendar",
+      "image": "https://images.pexels.com/photos/31474889/pexels-photo-31474889.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "short": "From the first idea to the final detail, we coordinate the moving parts of your event so it runs smoothly.",
+      "hero_title": "Plan the experience. We’ll coordinate the details.",
+      "lead": "Whether it’s a business gathering, launch, workshop, celebration or community event, we help turn the idea into a practical plan and keep the moving parts aligned.",
+      "meta": "NOVIQ provides event planning and coordination support, including concepts, schedules, vendor coordination, logistics and on-the-day management.",
+      "features": [
+        "Event planning",
+        "Vendor coordination",
+        "Event logistics",
+        "On-the-day coordination"
+      ],
+      "includes": [
+        [
+          "calendar",
+          "Event concept & planning",
+          "We shape the purpose, format, timeline and key requirements."
+        ],
+        [
+          "layers",
+          "Venue & vendor coordination",
+          "We help coordinate the people and suppliers needed to bring the plan together."
+        ],
+        [
+          "check",
+          "Run-of-show",
+          "A clear schedule keeps everyone aligned before and during the event."
+        ],
+        [
+          "users",
+          "Guest experience",
+          "We plan practical touchpoints that make the event easier for attendees."
+        ],
+        [
+          "zap",
+          "On-the-day coordination",
+          "We help keep the programme moving while you focus on your guests."
+        ],
+        [
+          "trending",
+          "Post-event review",
+          "We capture lessons and next steps for future events."
+        ]
+      ],
+      "for": "Businesses, organisations and individuals who want a well-organised event without carrying every detail themselves.",
+      "steps": [
+        [
+          "Discover",
+          "We understand the event, audience, purpose and priorities."
+        ],
+        [
+          "Plan",
+          "We build the timeline, requirements and coordination plan."
+        ],
+        [
+          "Coordinate",
+          "We align venues, vendors, people and logistics."
+        ],
+        [
+          "Deliver",
+          "We support execution and keep the day moving."
+        ]
+      ],
+      "_image_alt_update": "Elegant outdoor event table setting in Lagos, Nigeria"
+    },
+    {
+      "id": "event-coverage",
+      "slug": "service-event-coverage",
+      "title": "Event Coverage",
+      "icon": "camera",
+      "image": "https://images.pexels.com/photos/30820659/pexels-photo-30820659.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "short": "Professional photo and video coverage that turns your event into memories and content you can keep using.",
+      "hero_title": "Don’t let the important moments disappear.",
+      "lead": "We capture the people, atmosphere, key moments and details of your event, then shape the footage and images into polished assets for memories, promotion and social media.",
+      "meta": "NOVIQ provides event photography and video coverage, highlight content and social-ready edits.",
+      "features": [
+        "Event photography",
+        "Event videography",
+        "Highlight reels",
+        "Social-ready clips"
+      ],
+      "includes": [
+        [
+          "camera",
+          "Event photography",
+          "Candid and planned images that tell the story of the day."
+        ],
+        [
+          "play",
+          "Event videography",
+          "Professional moving footage of speakers, guests, performances and key moments."
+        ],
+        [
+          "spark",
+          "Highlight edits",
+          "Short, engaging edits designed to preserve the energy of the event."
+        ],
+        [
+          "send",
+          "Social-ready content",
+          "Vertical clips and selected moments ready for online publishing."
+        ],
+        [
+          "layers",
+          "Behind-the-scenes coverage",
+          "Extra moments that show the work and atmosphere behind the main programme."
+        ],
+        [
+          "check",
+          "Organised delivery",
+          "Your edited assets are delivered in practical formats for reuse."
+        ]
+      ],
+      "for": "Businesses, organisations, event hosts and brands that want their event professionally documented and turned into useful content.",
+      "steps": [
+        [
+          "Brief",
+          "We agree the event schedule, coverage priorities and deliverables."
+        ],
+        [
+          "Prepare",
+          "We plan positions, timing, equipment and key moments."
+        ],
+        [
+          "Capture",
+          "We cover the event with attention to story and detail."
+        ],
+        [
+          "Deliver",
+          "We edit and organise the final photos and video assets."
+        ]
+      ]
+    },
+    {
+      "id": "business-connections",
+      "slug": "service-business-connections",
+      "title": "Business-to-Customer Connections",
+      "icon": "users",
+      "image": "https://images.pexels.com/photos/30677596/pexels-photo-30677596.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "short": "We help businesses get in front of people who are more likely to need, trust and act on what they offer.",
+      "hero_title": "Put your business in front of the right people.",
+      "lead": "Visibility alone is not enough. We help connect your offer with relevant audiences through clear positioning, targeted outreach, local visibility and practical enquiry pathways.",
+      "meta": "NOVIQ helps businesses improve customer discovery and connect their offers with relevant audiences through digital and local marketing.",
+      "features": [
+        "Audience profiling",
+        "Customer discovery",
+        "Targeted outreach",
+        "Lead pathways"
+      ],
+      "includes": [
+        [
+          "users",
+          "Audience profiling",
+          "We clarify who your offer is for and what matters to them."
+        ],
+        [
+          "target",
+          "Customer targeting",
+          "We build campaigns and messages around relevant customer groups."
+        ],
+        [
+          "globe",
+          "Local visibility",
+          "We help businesses become easier to discover where their customers already search."
+        ],
+        [
+          "megaphone",
+          "Targeted outreach",
+          "Messages are shaped for the people most relevant to the offer."
+        ],
+        [
+          "send",
+          "Enquiry pathways",
+          "We make it clear how interested people can take the next step."
+        ],
+        [
+          "trending",
+          "Response tracking",
+          "We review signals and adjust the approach as results come in."
+        ]
+      ],
+      "for": "Businesses that have a useful product or service but want stronger connections with the customers most relevant to it.",
+      "steps": [
+        [
+          "Understand",
+          "We learn your offer, market and ideal customer."
+        ],
+        [
+          "Position",
+          "We sharpen the message and the reason to choose you."
+        ],
+        [
+          "Connect",
+          "We use appropriate channels to reach relevant audiences."
+        ],
+        [
+          "Improve",
+          "We track enquiries and refine the connection points."
+        ]
+      ]
+    }
+  ]
+}

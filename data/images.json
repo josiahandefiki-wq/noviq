@@ -1,0 +1,103 @@
+{
+  "_note": "Edited from /admin. Each key below is a named image slot used somewhere on the site. Change 'src' to swap the picture (upload replaces the file and updates the path automatically); 'alt' is the text shown to screen readers and search engines, so keep it a plain, accurate description of the photo.",
+  "hero-main": {
+    "src": "/assets/images/hero/hero-main.jpg",
+    "alt": "A hand touching a glowing digital globe surrounded by icons for search, chat, video and online shopping"
+  },
+  "hero-alt": {
+    "src": "/assets/images/hero/hero-alt.jpg",
+    "alt": "A hand touching a glowing digital network globe surrounded by marketing and communication icons"
+  },
+  "why": {
+    "src": "/assets/images/general/why.jpg",
+    "alt": "Close-up of hands typing on a laptop with UI and UX design icons overlaid on screen"
+  },
+  "about": {
+    "src": "/assets/images/general/about.jpg",
+    "alt": "Hands typing on a laptop with a digital marketing icon grid overlay, covering content, SEO, advertising, email and social media"
+  },
+  "testimonial": {
+    "src": "/assets/images/testimonials/testimonial.jpg",
+    "alt": "A hand touching a glowing digital network globe surrounded by marketing and communication icons"
+  },
+  "cta": {
+    "src": "/assets/images/general/cta.jpg",
+    "alt": ""
+  },
+  "service-web-development": {
+    "src": "https://images.pexels.com/photos/30678211/pexels-photo-30678211.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "alt": "Professional man working on a laptop in a modern Lagos office, Nigeria",
+    "source": "Pexels"
+  },
+  "service-social-media": {
+    "src": "https://images.pexels.com/photos/30689110/pexels-photo-30689110.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "alt": "Professional woman using a smartphone in a modern Lagos setting, Nigeria",
+    "source": "Pexels"
+  },
+  "service-management": {
+    "src": "https://images.pexels.com/photos/30677719/pexels-photo-30677719.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "alt": "African professionals collaborating on a laptop in a modern Lagos office, Nigeria",
+    "source": "Pexels"
+  },
+  "service-advertising": {
+    "src": "https://images.pexels.com/photos/33644177/pexels-photo-33644177.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "alt": "Large advertising billboards across a modern Lagos cityscape, Nigeria",
+    "source": "Pexels"
+  },
+  "service-content": {
+    "src": "https://images.pexels.com/photos/32053085/pexels-photo-32053085.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "alt": "Young Nigerian creative professional examining a camera in a modern studio",
+    "source": "Pexels"
+  },
+  "blog-article-01": {
+    "src": "/assets/images/blog/article-01.jpg",
+    "alt": "A desktop monitor displaying glowing lines of code and data charts"
+  },
+  "blog-article-02": {
+    "src": "/assets/images/blog/article-02.jpg",
+    "alt": "A hand holding a smartphone surrounded by digital marketing and social icons"
+  },
+  "blog-article-03": {
+    "src": "/assets/images/blog/article-03.jpg",
+    "alt": "Hands typing on a laptop with a digital marketing icon grid overlay, covering advertising, SEO and social media"
+  },
+  "project-01": {
+    "src": "/assets/images/portfolio/project-01.jpg",
+    "alt": "A desktop monitor displaying glowing lines of code and data charts"
+  },
+  "project-02": {
+    "src": "/assets/images/portfolio/project-02.jpg",
+    "alt": "A phone screen showing app icons for Facebook, Instagram, YouTube, Pinterest, X, LinkedIn, Reddit, TikTok and Threads"
+  },
+  "project-03": {
+    "src": "/assets/images/portfolio/project-03.jpg",
+    "alt": "A phone showing a Google search results page with Google Guaranteed local service ads"
+  },
+  "team-01": {
+    "src": "/assets/images/team/member-01.jpg",
+    "alt": "Portrait of a NOVIQ collaborator focused on creative, media, operations, and AI/web"
+  },
+  "team-02": {
+    "src": "/assets/images/team/member-02.jpg",
+    "alt": "Portrait of a NOVIQ collaborator focused on physical research and experimentation"
+  },
+  "team-03": {
+    "src": "/assets/images/team/member-03.jpg",
+    "alt": "Portrait of a NOVIQ collaborator focused on web and AI engineering"
+  },
+  "service-event-planning": {
+    "src": "https://images.pexels.com/photos/31474889/pexels-photo-31474889.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "alt": "Elegant outdoor event table setting in Lagos, Nigeria",
+    "source": "Pexels"
+  },
+  "service-event-coverage": {
+    "src": "https://images.pexels.com/photos/30820659/pexels-photo-30820659.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "alt": "Nigerian videographer capturing an event with a professional camera",
+    "source": "Pexels"
+  },
+  "service-business-connections": {
+    "src": "https://images.pexels.com/photos/30677596/pexels-photo-30677596.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "alt": "Business professionals collaborating in a modern Lagos cafe, Nigeria",
+    "source": "Pexels"
+  }
+}

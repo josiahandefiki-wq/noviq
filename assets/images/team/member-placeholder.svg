@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+  <title id="title">Team member photo placeholder</title>
+  <desc id="desc">A simple male silhouette used until a team photograph is available.</desc>
+  <rect width="600" height="600" fill="#e7efe9"/>
+  <circle cx="300" cy="212" r="100" fill="#b7c9bd"/>
+  <path d="M105 570c18-135 102-211 195-211s177 76 195 211" fill="#789180"/>
+  <path d="M226 361h148l42 209H184z" fill="#48685b"/>
+  <text x="300" y="548" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="20" font-weight="700">PHOTO COMING SOON</text>
+</svg>

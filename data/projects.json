@@ -1,0 +1,88 @@
+[
+  {
+    "id": "project-01",
+    "slug": "project-01",
+    "title": "Nexus — Campus Marketplace Platform",
+    "filter": "web",
+    "category": "Web Development",
+    "service_slug": "service-web-development",
+    "image": "assets/images/portfolio/project-01.jpg",
+    "summary": "A full-stack campus marketplace platform: buying and selling between students, food ordering, dispatch riders and real Paystack-powered seller activation.",
+    "tags": [
+      "Full-stack build",
+      "Payment integration",
+      "Marketplace platform"
+    ],
+    "brief": "Students on a university campus needed one place to buy and sell with each other, order food from campus vendors and find a dispatch rider \u2014 with sellers and riders able to activate their account through a real payment, not just a claim the frontend could fake.",
+    "approach": [
+      "Built a lightweight Node.js backend on the standard library alone, for registration, login and session handling.",
+      "Wired up real Paystack payments for account activation, confirmed independently by webhook and verification so it can't be faked client-side.",
+      "Kept account activation automatic, while identity verification and listing approval stayed manual admin steps.",
+      "Built seller and rider dashboards, an admin review queue and directory, and a buyer-facing marketplace from one shared design system."
+    ],
+    "deliverables": [
+      "Buyer marketplace for products, food and services",
+      "Seller and rider registration with Paystack-powered activation",
+      "Seller dashboard and admin approval panel",
+      "Rider directory, community news feed and automatic notifications"
+    ]
+  },
+  {
+    "id": "project-02",
+    "slug": "project-02",
+    "title": "Social Media Campaigns — Our Approach",
+    "filter": "social",
+    "category": "Social Media Marketing",
+    "service_slug": "service-social-media",
+    "image": "assets/images/portfolio/project-02.jpg",
+    "summary": "How NOVIQ plans and runs a social media campaign for a small business, from a clear audience and message through to community growth.",
+    "tags": [
+      "Strategy",
+      "Content series",
+      "Community"
+    ],
+    "brief": "Most small businesses don't actually need more followers \u2014 they need social media to do a specific job: bring in enquiries, fill bookings, or keep past customers coming back. A campaign that only chases numbers rarely does that. This is how we build one that does.",
+    "approach": [
+      "We start with one clear audience and one message, instead of trying to speak to everyone at once.",
+      "We plan a short content series \u2014 a teaser, a launch moment and a behind-the-scenes follow-up \u2014 so posts build on each other rather than standing alone.",
+      "We keep one consistent visual style across posts, carousels and stories, so the brand is recognisable feed after feed.",
+      "We build in simple, specific prompts for replies, saves and shares, because that drives reach further than views alone.",
+      "We pick platforms based on where the audience already spends time, not on whatever app is trending that month."
+    ],
+    "deliverables": [
+      "Campaign strategy with one clear audience and message",
+      "Content calendar built around a short launch series",
+      "Post, carousel and story templates in one visual style",
+      "A simple plan for replies, community and ongoing engagement"
+    ]
+  },
+  {
+    "id": "project-03",
+    "slug": "project-03",
+    "title": "Google Local Services Ads — Our Approach",
+    "filter": "ads",
+    "category": "Advertising",
+    "service_slug": "service-advertising",
+    "image": "assets/images/portfolio/project-03.jpg",
+    "summary": "How NOVIQ sets up and manages Google Local Services Ads so local businesses show up Google Guaranteed for the searches that matter.",
+    "tags": [
+      "Campaign setup",
+      "Ad creative",
+      "Tracking"
+    ],
+    "brief": "For a local service business, showing up with a phone number and a strong rating the moment someone searches \u201celectrician near me\u201d matters more than a clever slogan. Google Local Services Ads put a business at the top of local search with a Google Guaranteed badge, real reviews and one tap to call or book \u2014 but only once the account is set up and verified correctly. This is how we get it right.",
+    "approach": [
+      "We take the business through Google's background-check and licence verification, since the Guaranteed badge only appears once that's approved.",
+      "We build out the service list and service area precisely, so ads only show for jobs the business can actually take on.",
+      "We set the budget against a measurable goal \u2014 booked jobs or calls \u2014 and run it as pay-per-lead rather than pay-per-click.",
+      "We connect call tracking and booking data back to the ads, so it's clear which leads turned into real work.",
+      "We keep reviews and response time current, because both affect ranking and trust as much as the ad itself."
+    ],
+    "deliverables": [
+      "Google Local Services Ads account setup and verification",
+      "Service list and service area configuration",
+      "Call and lead tracking setup",
+      "Ongoing budget and performance monitoring"
+    ]
+  }
+]
