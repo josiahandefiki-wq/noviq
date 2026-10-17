@@ -1,0 +1,10 @@
+[build]
+  publish = "."
+  # No build command: this site is plain static HTML/CSS/JS. Content edited
+  # from /admin (testimonials, contact & social links, images) is picked up
+  # at runtime by js/content.js — no rebuild step is needed for that content.
+
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
